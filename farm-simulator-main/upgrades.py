@@ -1,0 +1,7 @@
+#kas on motet teha eraldi upgrades file
+
+#mitu korda upgradei on ostetud
+upgrades = {
+    "Faster Growth": 0,
+    "More Watering": 0,
+}
