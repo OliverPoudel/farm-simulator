@@ -1,5 +1,13 @@
 import pygame
 pygame.mixer.init()
+# Sizes
+game_width = 1000
+game_height = 1000
+window_width = 1000
+window_height = 1000
+scale_x = game_width / window_width
+scale_y = game_height / window_height
+
 # Colors
 grass_color = (75, 50, 20)
 soil_color = (150, 75, 0)
@@ -8,6 +16,13 @@ soil_color = (150, 75, 0)
 market_prices = {
     "Carrot": 5,
     "Wheat": 10,
+}
+
+#Upgrade Prices
+upgrade_prices = {
+    "Faster Growth": 100,
+    "More Watering": 150,
+    "Buy worker": 500,
 }
 
 # Audios

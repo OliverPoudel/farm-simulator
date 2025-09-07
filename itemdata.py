@@ -16,5 +16,5 @@ ItemData = {
         "Type": "Crop",
         "Image": "wheat.png",
         "GrowTime": 5
-    }
+    },
 }

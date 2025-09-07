@@ -5,9 +5,14 @@ global inventory
 global soils
 global selected_item
 global money
+global current_menu
 
-inventory = [Item("Sickle"), Item("Watercan"), Item("Carrot"), Item("Wheat")]
+workers = []
+
+current_menu = "Market"
+
+inventory = [Item("Sickle"), Item("Watercan")]
 soils = [Soil(i) for i in range(36)]
 
 selected_item = 0
-money = 1000
+money = 10000
